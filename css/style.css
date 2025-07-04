@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #00c1b5;
+    margin: 25px 15px;
+}
+#logo{
+    width: 260px;
+    height: auto;
+
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #251d20;
+    text-decoration: none;
+
+}
+a:hover, a:focus, a:active{
+    color: #251d20;
+    text-decoration: underline;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    width: 80%;
+    max-width: 420px;
+    height: auto;
+}
+.pera{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
