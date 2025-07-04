@@ -1,26 +1,28 @@
-*{
-    margin: 0px;
-}
-body{
+body {
+    size: 100%;
     background-color: #00c1b5;
     margin: 25px 15px;
+    position: relative; /* Needed for absolute positioning inside body */
 }
-#logo{
+
+#logo {
     width: 260px;
     height: auto;
-
 }
 
-a{
+#info {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #251d20;
     text-decoration: none;
-
+    position: absolute;
+    top: 5px;  /* Same as body margin */
+    right: 15px; /* Same as body margin */
 }
-a:hover, a:focus, a:active{
-    color: #251d20;
+#info:hover {
+    color: #0f0f0f;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .hero{
@@ -37,4 +39,35 @@ img{
 .pera{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.info-section {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #000; /* black text */
+  line-height: 1.5;
+  margin: 20px 20px;
+}
+
+.info-section p {
+  margin-bottom: 20px;
+}
+
+.info-section p strong {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.info-section a {
+  color: #000;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.info-section a:hover {
+  color: #ffffff; /* hover effect */
+}
+
+.privacy a {
+  font-weight: bold;
+  font-size: 20px;
 }
